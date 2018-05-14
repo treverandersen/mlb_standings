@@ -1,5 +1,5 @@
-require "mlb_standings/version"
-
-module MlbStandings
-  # Your code goes here...
-end
+require_relative "./mlb_standings/version"
+require_relative "./mlb_standings/league"
+require_relative "./mlb_standings/division"
+require_relative "./mlb_standings/team"
+require_relative "./mlb_standings/cli"

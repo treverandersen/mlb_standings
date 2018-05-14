@@ -1,5 +1,12 @@
+
 class MlbStandings::CLI
+	
 	def call
-		puts "Here are the current MLB Standings"
+		show_standings
+		user_command
+		goodbye
 	end
+
+	
+
 end

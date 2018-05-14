@@ -1,4 +1,6 @@
 #!/usr/bin/env ruby
 
+require './lib/mlb_standings'
+
 MlbStandings::CLI.new.call
 
