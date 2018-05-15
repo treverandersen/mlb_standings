@@ -1,3 +1,6 @@
+require "nokogiri"
+require "open-uri"
+require "pry"
 require_relative "./mlb_standings/version"
 require_relative "./mlb_standings/league"
 require_relative "./mlb_standings/division"
